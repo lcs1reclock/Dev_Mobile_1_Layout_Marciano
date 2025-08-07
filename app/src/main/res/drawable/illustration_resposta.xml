@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fundo cinza claro para a ilustração -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M0,0h200v200h-200z" />
+
+    <!-- Corpo da pessoa (simples) -->
+    <path
+        android:fillColor="#673AB7"
+        android:pathData="M50,100 L80,100 L80,150 L50,150 Z" />
+    <!-- Cabeça da pessoa -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M65,90 A15,15 0 1,1 65,60 A15,15 0 1,1 65,90 Z" />
+    <!-- Braço da pessoa -->
+    <path
+        android:fillColor="#673AB7"
+        android:pathData="M75,110 L90,100 L90,120 L75,130 Z" />
+
+    <!-- Telefone na mão da pessoa -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M85,95 L95,95 L95,115 L85,115 Z" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M87,97 L93,97 L93,113 L87,113 Z" />
+
+    <!-- Robô (corpo circular) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M140,120 A40,40 0 1,1 140,40 A40,40 0 1,1 140,120 Z" />
+    <!-- Olhos do robô -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M130,70 A5,5 0 1,1 130,60 A5,5 0 1,1 130,70 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,70 A5,5 0 1,1 150,60 A5,5 0 1,1 150,70 Z" />
+    <!-- Boca do robô -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M130,85 A10,10 0 0,0 150,85"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Antena do robô -->
+    <path
+        android:strokeColor="#757575"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M140,40 L140,20 M135,25 L145,25" />
+
+</vector>

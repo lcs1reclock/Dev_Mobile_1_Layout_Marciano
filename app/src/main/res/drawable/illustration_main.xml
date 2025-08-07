@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fundo cinza claro para a ilustração -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M0,0h200v200h-200z" />
+
+    <!-- Corpo da pessoa (simples) -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M70,100 L130,100 L130,150 L70,150 Z" />
+    <!-- Cabeça da pessoa -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M100,90 A15,15 0 1,1 100,60 A15,15 0 1,1 100,90 Z" />
+
+    <!-- Computador (monitor e teclado) -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M40,110 L160,110 L160,140 L40,140 Z" />
+    <path
+        android:fillColor="#424242"
+        android:pathData="M50,115 L150,115 L150,135 L50,135 Z" />
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M45,145 L155,145 L155,155 L45,155 Z" />
+
+    <!-- Robô (cabeça) -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M160,100 A20,20 0 1,1 160,60 A20,20 0 1,1 160,100 Z" />
+    <!-- Olhos do robô -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M155,75 A3,3 0 1,1 155,70 A3,3 0 1,1 155,75 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M165,75 A3,3 0 1,1 165,70 A3,3 0 1,1 165,75 Z" />
+
+    <!-- Cabo conectando computador ao robô -->
+    <path
+        android:strokeColor="#757575"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M130,120 C140,120 150,90 155,80" />
+
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Marciano Robot</string>
+    <string name="robot_illustration">Ilustração do robô Marciano</string>
+    <string name="hello_marciano">Olá, eu sou o Robô Marciano\nVocê pode me perguntar qualquer coisa.</string>
+    <string name="enter_your_message">Digite a sua mensagem abaixo:</string>
+    <string name="hello_marciano_hint">Olá, MARCIANO!</string>
+    <string name="send">Enviar</string>
+    <string name="robot_illustration_response">Ilustração do robô Marciano na tela de resposta</string>
+    <string name="back">Voltar</string>
+</resources>
